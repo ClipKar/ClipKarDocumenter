@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClipKar Project Onboarding Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo-container">
+      <!-- SVG Logo -->
+      <svg id="ck-logo" width="34" height="34" viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20" fill="#1A9FFF"/>
+        <polygon points="20,16 34,24 20,32" fill="white"/>
+        <rect x="6" y="20" width="6" height="8" rx="2" fill="#FFD600"/>
+      </svg>
+      <span class="brand">ClipKar</span>
+    </div>
+    <button id="theme-toggle" title="Toggle Theme">🌙</button>
+  </nav>
+  <header>
+    <h1>Welcome to <span class="highlight">ClipKar</span></h1>
+    <p class="subtitle">
+      Instantly generate video tutorials on any topic.<br>
+      Your query, your tutorial, your pace.
+    </p>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#logo">Logo</a>
+      <a href="#stack">Tech Stack</a>
+      <a href="#milestones">Milestones</a>
+      <a href="#branding">Branding</a>
+      <a href="#kickstart">Kickstart</a>
+    </div>
+  </header>
+  <main>
+    <section id="overview">
+      <h2>Project Overview 🚀</h2>
+      <p>
+        <b>ClipKar</b> is an innovative web service that transforms your topics into rich video tutorials. Just enter a subject—like "Python Frameworks"—and ClipKar delivers a bespoke training session, complete with explanations and practical demos, powered by AI.
+      </p>
+    </section>
+
+    <section id="features">
+      <h2>Key Features 🧩</h2>
+      <ul class="features-list">
+        <li><span>📝 Topic-to-Tutorial:</span> Input any subject and get a curated video lesson.</li>
+        <li><span>🤖 AI Generation:</span> Combines scripts, voiceovers, and visuals automatically.</li>
+        <li><span>🎯 Streamlined Learning:</span> No more searching—just ask and watch.</li>
+        <li><span>🗃️ History:</span> All your past tutorials, one click away (MVP+).</li>
+      </ul>
+    </section>
+
+    <section id="logo">
+      <h2>Logo & Visual Identity 🎬</h2>
+      <div class="logo-wrap">
+        <!-- SVG logo repeat for bigger visual -->
+        <svg width="80" height="80" viewBox="0 0 48 48">
+          <circle cx="24" cy="24" r="20" fill="#1A9FFF"/>
+          <polygon points="20,16 34,24 20,32" fill="white"/>
+          <rect x="6" y="20" width="6" height="8" rx="2" fill="#FFD600"/>
+        </svg>
+        <div>
+          <b>Concept:</b> The play button suggests video; the lightbulb filament and spark (yellow rectangle) symbolize ideas and learning. <br>
+          <b>Colors:</b> Tech blue, spark yellow, crisp white.
+        </div>
+      </div>
+    </section>
+
+    <section id="stack">
+      <h2>Tech Stack & System Flow 🛠️</h2>
+      <table>
+        <tr><th>Element</th><th>Choice</th></tr>
+        <tr><td>Backend</td><td>Python (FastAPI or Flask)</td></tr>
+        <tr><td>Frontend</td><td>React or Next.js</td></tr>
+        <tr><td>AI Scripting</td><td>OpenAI GPT-4/5 or Gemini</td></tr>
+        <tr><td>Video Synth</td><td>Descript API / D-ID / HeyGen</td></tr>
+        <tr><td>Database</td><td>PostgreSQL or MongoDB</td></tr>
+        <tr><td>Storage</td><td>AWS S3</td></tr>
+        <tr><td>Auth</td><td>Auth0 / Firebase Auth</td></tr>
+      </table>
+      <p class="user-stories"><b>User Stories:</b> 
+        <ul>
+          <li>As a learner, generate a video by topic request.</li>
+          <li>Review and revisit past tutorials.</li>
+          <li>Admin features for quality control (future).</li>
+        </ul>
+      </p>
+    </section>
+
+    <section id="milestones">
+      <h2>Roadmap & Milestones ⏳</h2>
+      <table>
+        <tr><th>Milestone</th><th>Deliverable</th><th>Timeline</th></tr>
+        <tr><td>Setup</td><td>Repo, logo, README</td><td>Day 1-3</td></tr>
+        <tr><td>Topic → Script</td><td>Script generator (AI)</td><td>Week 1</td></tr>
+        <tr><td>Script → Video</td><td>Video synthesis (MVP)</td><td>Week 2</td></tr>
+        <tr><td>Frontend</td><td>Submission UI</td><td>Week 2</td></tr>
+        <tr><td>Accounts/Storage</td><td>User login, history</td><td>Week 3</td></tr>
+        <tr><td>Testing</td><td>Docs, bug fixes</td><td>Week 4</td></tr>
+      </table>
+    </section>
+
+    <section id="branding">
+      <h2>Branding, Domain & Taglines 🌟</h2>
+      <ul>
+        <li><b>Taglines:</b>
+          <ul>
+            <li>“Ask. Learn. Watch. Instantly.”</li>
+            <li>“Your topic. Your tutorial. Your pace.”</li>
+            <li>“Learn anything. In minutes.”</li>
+          </ul>
+        </li>
+        <li><b>Domain:</b> clipkar.com (or getclipkar.com, clipkar.ai)</li>
+        <li><b>Future:</b> Multi-language, content depth, enterprise API.</li>
+      </ul>
+    </section>
+
+    <section id="kickstart">
+      <h2>Kickstart Checklist ✅</h2>
+      <ul class="checklist">
+        <li>Create logo & branding assets</li>
+        <li>Set up repository and README</li>
+        <li>Provision API keys (OpenAI etc.)</li>
+        <li>Wireframe MVP user flow</li>
+        <li>Schedule weekly meetings</li>
+      </ul>
+      <div class="readme-sample">
+        <b>Sample README Intro:</b>
+        <pre>
+## ClipKar
+_From topic to tutorial — discover, watch, and learn with AI-powered video lessons tailored just for you._
+        </pre>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>
+      &copy; 2024 ClipKar &mdash; Created for learning. <span id="to-top">⬆️ Top</span>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
